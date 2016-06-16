@@ -1,0 +1,27 @@
+AllCops:
+  Exclude:
+    - 'script/**/*'
+    - 'Guardfile'
+    - 'Rakefile'
+    - 'seraph.gemspec'
+Documentation:
+  Enabled: false
+Metrics/ClassLength:
+  Max: 150
+Metrics/LineLength:
+  Enabled: true
+  Max: 100
+Rails/ActionFilter:
+  Enabled: false
+SignalException:
+  Enabled: false
+Style/StringLiterals:
+  EnforcedStyle: single_quotes
+Style/TrailingCommaInLiteral:
+  EnforcedStyleForMultiline: comma
+  Enabled: true
+TrailingCommaInArguments:
+  Enabled: false
+Style/DotPosition:
+  EnforcedStyle: leading
+  Enabled: true

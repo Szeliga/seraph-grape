@@ -1,26 +1,19 @@
-# seraph-grape
+# Seraph Grape integration
+[![Build Status](https://secure.travis-ci.org/Szeliga/seraph-grape.svg?branch=master)](https://travis-ci.org/Szeliga/seraph-grape)
 
-* [Homepage](https://rubygems.org/gems/seraph-grape)
-* [Documentation](http://rubydoc.info/gems/seraph-grape/frames)
-* [Email](mailto:szymon.szeliga at netguru.co)
+[Seraph](https://github.com/Szeliga/seraph) helpers for Grape.
 
-[![Build Status](https://secure.travis-ci.org//seraph-grape.svg?branch=master)](https://travis-ci.org//seraph-grape)
+## Installation
 
-## Description
-
-TODO: Description
-
-## Features
-
-## Examples
-
-    require 'seraph/grape'
-
-## Requirements
-
-## Install
-
-    $ gem install seraph-grape
+Enter in your terminal
+```
+gem install seraph-grape
+```
+or put
+``` ruby
+gem 'seraph-grape'
+```
+inside your `Gemfile`
 
 ## Copyright
 
