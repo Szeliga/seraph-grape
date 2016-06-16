@@ -1,0 +1,1 @@
+require 'seraph/grape/version'
