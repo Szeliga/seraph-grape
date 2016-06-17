@@ -8,8 +8,8 @@ require 'English'
 Gem::Specification.new do |gem|
   gem.name          = 'seraph-grape'
   gem.version       = Seraph::Grape::VERSION
-  gem.summary       = ''
-  gem.description   = ''
+  gem.summary       = 'Seraph helpers for Grape'
+  gem.description   = 'Integrate Seraph with your Grape API'
   gem.license       = 'MIT'
   gem.authors       = ['Szymon Szeliga']
   gem.email         = 'szeliga.szymon@gmail.com'
