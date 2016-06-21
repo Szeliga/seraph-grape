@@ -1,7 +1,10 @@
-require 'seraph/configuration'
-
 module Seraph
   class Configuration
-    attr_accessor :authenticator
+    attr_accessor :api_secret
+
+    def reset
+      @api_secret = nil
+      @pepper = nil
+    end
   end
 end

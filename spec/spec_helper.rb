@@ -1,6 +1,8 @@
+require 'pry'
 require 'rspec'
-require 'seraph/grape/version'
 require 'codeclimate-test-reporter'
+require 'seraph'
+require 'seraph/grape'
 
 Dir['./spec/support/**/*.rb'].sort.each { |f| require f }
 
@@ -13,6 +15,10 @@ RSpec.configure do |config|
 
   config.mock_with :rspec do |mocks|
     mocks.verify_partial_doubles = true
+  end
+
+  config.before(:each) do
+    Seraph.configuration.reset
   end
 
   config.order = :random

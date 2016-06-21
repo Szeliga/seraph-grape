@@ -1,2 +1,5 @@
 require 'seraph/grape/version'
 require 'seraph/grape/configuration'
+require 'seraph/grape/helpers'
+require 'seraph/grape/jwt'
+require 'seraph/grape/authenticator'
