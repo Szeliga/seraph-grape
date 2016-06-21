@@ -31,7 +31,7 @@ Gem::Specification.new do |gem|
   gem.require_paths = ['lib']
 
   gem.add_runtime_dependency 'grape', '~> 0.16'
-  gem.add_runtime_dependency 'seraph', '~> 0.0'
+  gem.add_runtime_dependency 'seraph', '~> 0.1'
   gem.add_runtime_dependency 'jwt', '~> 1.5'
   gem.add_development_dependency 'rake', '~> 11.2'
   gem.add_development_dependency 'rack-test', '~> 0.6'
